@@ -1,0 +1,112 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    background-color: rgba(165, 88, 216, 0.404);
+}
+
+h1{
+    color:#ffffffc7;
+    text-align: center;
+   padding: 10px;
+}
+
+.container
+{
+    background-color: rgba(161, 82, 173, 0.568);
+    margin: auto;
+    padding: 30px;
+    width: 70%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#task,#description,#myBtn
+{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.432);
+    border-radius: 5px;
+    font-family:  'Trebuchet MS';
+    font-size: 1rem;
+    outline: none;
+}
+
+#task,#description{
+    background-color: rgba(100, 166, 168, 0.404);
+    color: white;
+
+}
+#task:hover,#description:hover{
+
+    margin: 12px;
+}
+
+#myBtn{
+    /* margin-left: 15px; */
+    color: rgba(69, 4, 107, 0.877);
+    background-color:white;
+    border: none;
+}
+
+#myBtn:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    color:white ;
+    background-color: rgba(69, 4, 107, 0.877);
+    border: none;
+}
+
+
+.task
+{
+    background-color: rgb(255, 253, 251);
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family:  'Trebuchet MS';
+    border-radius: 5px;
+}
+
+.task > div{
+    width:100%;
+}
+
+.task span{
+    font-size: 1rem;
+    color: #111010;
+}
+
+#delete{
+    padding: 10px;
+    color: wheat;
+    background-color:rgba(69, 4, 107, 0.877);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+
+}
+
+#delete:hover{
+    background-color: rgba(224, 17, 59, 0.884);
+    cursor: pointer;
+    color: wheat;
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+}
